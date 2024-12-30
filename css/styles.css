@@ -96,7 +96,7 @@ ul a {
 
 .benefits {
   width: 1200px;
-  margin: 32px auto 0 auto;
+  margin: 36px auto;
 }
 
 .benefits h2 {
@@ -128,5 +128,29 @@ ul a {
 }
 
 .reason-desc {
+  font-weight: 200;
+}
+
+.quote {
+  height: 320px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote .content {
+  flex-direction: column;
+}
+
+.quote p {
+  align-self: flex-end;
+  font-size: 1.125rem;
+}
+
+.quote blockquote p {
+  font-size: 3rem;
+  font-style: italic;
   font-weight: 200;
 }
