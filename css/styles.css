@@ -50,3 +50,40 @@ ul a {
   text-decoration: none;
   color: #f9faf8;
 }
+
+.cta {
+  height: 360px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.cta .content {
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.cta .cta-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.cta .cta-content h1 {
+  font-size: 2.8rem;
+}
+
+.cta .cta-content button {
+  width: 120px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+.cta .cta-img {
+  flex: 1;
+}
