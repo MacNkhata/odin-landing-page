@@ -32,7 +32,7 @@ header .content {
 
 .logo p,
 .logo span {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ ul a {
 }
 
 .cta {
-  height: 360px;
+  height: 420px;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -65,25 +65,68 @@ ul a {
   gap: 64px;
 }
 
-.cta .cta-content {
+.cta-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 16px;
 }
 
-.cta .cta-content h1 {
-  font-size: 2.8rem;
+.cta-content h1 {
+  font-size: 3rem;
 }
 
-.cta .cta-content button {
+.cta-content p {
+  font-size: 1.125rem;
+}
+
+.cta-content button {
   width: 120px;
   padding: 8px 16px;
   border: none;
   border-radius: 6px;
   background-color: #3882f6;
   color: #f9faf8;
+  font-size: 1.125rem;
 }
-.cta .cta-img {
+
+.cta-img {
   flex: 1;
+}
+
+.benefits {
+  width: 1200px;
+  margin: 32px auto 0 auto;
+}
+
+.benefits h2 {
+  font-size: 2.25rem;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.reasons {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 32px;
+}
+
+.reason {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.reason-img {
+  border: 1px solid #3882f6;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.reason-desc {
+  font-weight: 200;
 }
